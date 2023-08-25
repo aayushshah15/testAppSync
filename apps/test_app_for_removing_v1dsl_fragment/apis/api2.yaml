@@ -1,0 +1,52 @@
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: javascript
+        javascript:
+          body: >
+            /*
+             * You can use Javascript Functions to:
+             *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+             *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+             *   3. Make http calls via axios
+             *asdsadsad
+             * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+             */
+
+            asdsadconsole.log(obj.str);
+
+            return obj;
+  metadata:
+    description: ""
+    folder: ""
+    id: d83ad308-0736-46ac-a339-ac4f5caaf0b5
+    name: API2
+    organization: 47278866-8fef-4750-a6af-2395394d900b
+    tags: {}
+    version: ""
+  trigger:
+    application:
+      id: dc2d2400-b939-4907-8741-ed1b2a4f3337
+applicationId: dc2d2400-b939-4907-8741-ed1b2a4f3337
+creator: {}
+folderId: ""
+id: d83ad308-0736-46ac-a339-ac4f5caaf0b5
+isDeployed: false
+name: API2
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+triggerType: 0
+updated: 1692989571794

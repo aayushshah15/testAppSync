@@ -1,0 +1,46 @@
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        email:
+          emailAttachments: ""
+          emailBcc: ""
+          emailBody: ""
+          emailCc: ""
+          emailFrom: Superblocks <app@superblocksmail.com>
+          emailSubject: ""
+          emailTo: ""
+        integration: email
+  metadata:
+    description: ""
+    folder: ""
+    id: 0a0f0455-622d-4013-aada-0416865634e5
+    name: API1
+    organization: 47278866-8fef-4750-a6af-2395394d900b
+    tags: {}
+    version: ""
+  trigger:
+    application:
+      id: dc2d2400-b939-4907-8741-ed1b2a4f3337
+applicationId: dc2d2400-b939-4907-8741-ed1b2a4f3337
+creator: {}
+folderId: ""
+id: 0a0f0455-622d-4013-aada-0416865634e5
+isDeployed: false
+name: API1
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+triggerType: 0
+updated: 1692989564708

@@ -4,6 +4,26 @@ isHidden: false
 layouts:
   - actionUpdates: []
     dsl:
+      apis:
+        apiMap:
+          0a0f0455-622d-4013-aada-0416865634e5:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 0a0f0455-622d-4013-aada-0416865634e5
+            onError:
+              - id: d3464414-099b-426a-8b45-8aba5f80f1b7
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
+          d83ad308-0736-46ac-a339-ac4f5caaf0b5:
+            dynamicTriggerPathList:
+              - key: onError
+            id: d83ad308-0736-46ac-a339-ac4f5caaf0b5
+            onError:
+              - id: 240eadc0-c51a-448e-bb26-81080c1c82ed
+                message: "{{API2.error}}"
+                style: error
+                type: showAlert
       backgroundColor: none
       bottomRow: 107
       cachedData:
@@ -15,7 +35,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 35
+          bottomRow: 23
           cachedColumnSettings: {}
           columnOrder:
             - photo
@@ -64,7 +84,7 @@ layouts:
           isSearchable: true
           isVisible: true
           label: Data
-          leftColumn: 4
+          leftColumn: 5
           onCancelChanges:
             - id: iq72cxu5js
               newWindow: true
@@ -212,7 +232,7 @@ layouts:
               textSize: PARAGRAPH
               verticalAlignment: CENTER
               width: 150
-          rightColumn: 67
+          rightColumn: 68
           snapColumns: 63
           snapRows: 21
           tableData: >-
@@ -276,11 +296,11 @@ layouts:
             ]
           tableHeader: Users
           textSize: PARAGRAPH
-          topRow: 14
+          topRow: 2
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 0937y4l5bx
-          widgetLastChange: 2023-08-25T18:43:25.479Z
+          widgetLastChange: 2023-08-25T18:52:43.517Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -293,12 +313,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-25T18:43:20.744Z
+      widgetLastChange: 2023-08-25T18:52:46.532Z
       widgetName: MainContainer
     id: 10f5fc25-a2e0-4d66-b316-d3a8946969e2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-25T18:43:25.671Z
+    updated: 2023-08-25T18:52:58.770Z
     userPermissions: []
 name: Page1
-updated: 2023-08-25T18:43:25.671Z
+updated: 2023-08-25T18:52:58.770Z
