@@ -1,0 +1,12 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "0.0.22"
+  },
+  "resources": {
+    "dc2d2400-b939-4907-8741-ed1b2a4f3337": {
+      "location": "apps/test_app_for_removing_v1dsl_fragment",
+      "resourceType": "APPLICATION"
+    }
+  }
+}

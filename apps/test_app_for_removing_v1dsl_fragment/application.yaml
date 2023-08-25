@@ -1,0 +1,40 @@
+created: 2023-08-25T18:43:14.127Z
+creator:
+  id: 8854dd73-4739-41b4-8fb3-97f3b4a28835
+  name: Aayush Shah
+deletedAt: null
+deployedAt: null
+deployedCommitId: null
+folderId: null
+id: dc2d2400-b939-4907-8741-ed1b2a4f3337
+isDeployed: false
+isEditable: true
+isPublic: false
+name: test app for removing v1dsl fragment
+organizationId: 47278866-8fef-4750-a6af-2395394d900b
+pages:
+  - id: 4c7f1cf7-e5d3-49bb-8f12-139a03d9e043
+    isDefault: true
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: 125970b6-0a0e-41b8-90ec-bf087d77d584
+    editor:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+    preview:
+      availableProfileIds:
+        - 125970b6-0a0e-41b8-90ec-bf087d77d584
+        - e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+      defaultProfileId: e23c1448-50bc-4d28-8b51-2b638d1a1d3a
+updated: 2023-08-25T18:43:25.671Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications
