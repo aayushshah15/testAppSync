@@ -35,7 +35,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 45
+          bottomRow: 21
           cachedColumnSettings: {}
           columnOrder:
             - photo
@@ -84,7 +84,7 @@ layouts:
           isSearchable: true
           isVisible: true
           label: Data
-          leftColumn: 20
+          leftColumn: 13
           onCancelChanges:
             - id: iq72cxu5js
               newWindow: true
@@ -232,7 +232,7 @@ layouts:
               textSize: PARAGRAPH
               verticalAlignment: CENTER
               width: 150
-          rightColumn: 83
+          rightColumn: 76
           snapColumns: 63
           snapRows: 21
           tableData: >-
@@ -296,11 +296,11 @@ layouts:
             ]
           tableHeader: Users
           textSize: PARAGRAPH
-          topRow: 24
+          topRow: 0
           type: TABLE_WIDGET
           verticalAlignment: CENTER
           widgetId: 0937y4l5bx
-          widgetLastChange: 2023-08-25T19:13:19.494Z
+          widgetLastChange: 2023-08-25T19:23:43.201Z
           widgetName: Table1
       containerStyle: none
       detachFromLayout: true
@@ -313,12 +313,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-08-25T19:13:15.353Z
+      widgetLastChange: 2023-08-25T19:18:06.982Z
       widgetName: MainContainer
     id: 10f5fc25-a2e0-4d66-b316-d3a8946969e2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-08-25T19:13:21.650Z
+    updated: 2023-08-25T19:23:45.829Z
     userPermissions: []
 name: Page1
-updated: 2023-08-25T19:13:21.650Z
+updated: 2023-08-25T19:23:45.829Z
